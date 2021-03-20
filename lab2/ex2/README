@@ -9,15 +9,15 @@ in the lab.conf OR in a priviledged container.
 
 - pc1, pc2 and pc3 have to use standard address.
 
-- pc1 has to use the default configuration for the Interface ID
+- pc1 has to use the default configuration for the Interface ID v
 
-- pc2 has to use a Random Interface ID
+- pc2 has to use a Random Interface ID v
 
-- pc3 has to use EUI-64
+- pc3 has to use EUI-64 v
 
 - pc4 has to use the privacy extension in order to make it use
   temporary addresses. Set up a short lifetime in order to see multiple 
-  addresses. 
+  addresses.  v
 
 - router r1 is already set up. You only have to turn on the radvd server
   to capture the router advertisement packets. See the r1.startup file.
